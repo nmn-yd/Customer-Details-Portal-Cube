@@ -22,7 +22,7 @@ const App: React.FC = () => {
 		<div className="wrapper">
 			<h1 className="app-heading">
 				<img
-					src="/src/assets/cubeLogo.png"
+					src="/public/cubeLogo.png"
 					alt="A text with cube written in it"
 				/>
 				<span>Customer Details Portal</span>
