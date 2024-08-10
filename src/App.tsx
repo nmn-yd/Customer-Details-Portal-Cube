@@ -4,6 +4,8 @@ import CustomerDetails from "./components/CustomerDetails";
 import { Customer } from "./types/Customer";
 import { generateCustomers } from "./data/customerData";
 
+import cubeLogo from "./assets/cubeLogo.png";
+
 const App: React.FC = () => {
 	const [customers, setCustomers] = useState<Customer[]>([]);
 	const [selectedCustomerId, setSelectedCustomerId] = useState<string | null>(
@@ -21,10 +23,7 @@ const App: React.FC = () => {
 	return (
 		<div className="wrapper">
 			<h1 className="app-heading">
-				<img
-					src="/public/cubeLogo.png"
-					alt="A text with cube written in it"
-				/>
+				<img src={cubeLogo} alt="A text with cube written in it" />
 				<span>Customer Details Portal</span>
 			</h1>
 			<div className="app">

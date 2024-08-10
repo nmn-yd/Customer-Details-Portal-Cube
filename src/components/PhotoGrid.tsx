@@ -7,7 +7,6 @@ interface PhotoGridProps {
 
 const PhotoGrid: React.FC<PhotoGridProps> = ({ selectedCustomerId }) => {
 	const { photos, loading, error } = useFetchPhotos(selectedCustomerId);
-	console.log("hi render");
 	if (error) {
 		return <div className="error-message">Error: {error}</div>;
 	}
