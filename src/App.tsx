@@ -21,10 +21,7 @@ const App: React.FC = () => {
 	return (
 		<div className="wrapper">
 			<h1 className="app-heading">
-				<img
-					src="/public/cubeLogo.png"
-					alt="A text with cube written in it"
-				/>
+				<img src="/cubeLogo.png" alt="A text with cube written in it" />
 				<span>Customer Details Portal</span>
 			</h1>
 			<div className="app">
