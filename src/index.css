@@ -274,7 +274,7 @@ width: 105px;
 
 .photo-grid img {
     width: 100%;
-    /* height: 100%;  can make the grid of same height and width using this but i think with fixed height it looks more elegant */ 
+    /* height: 100%;  can make the grid of same height and width using this but i think with auto height it looks more elegant */ 
 		object-fit: cover;
 		object-position: center;
     border-radius: 4px;
